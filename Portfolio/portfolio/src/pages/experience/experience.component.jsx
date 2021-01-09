@@ -17,7 +17,8 @@ const Experience = () => {
         <Card className="Exp">
         <Flip left cascade>
           <Card.Header className=" justify-content-center dark">
-          <h1 className="text-center">EXPERIENCE</h1>
+          
+          <h1 className="text-center"><strong className="body-title-style ">EXPERIENCE</strong>  </h1>
           </Card.Header>
         <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
