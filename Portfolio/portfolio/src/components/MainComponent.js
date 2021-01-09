@@ -10,9 +10,9 @@ const Main = () => {
     <div className="App">
       <MyNavbar />
       <Switch>
-            <Route path="/home" component={Home} />
-            <Route path="/skills" component={Skills} />
-            <Route path="/projects" component={Projects} />
+            <Route exact path="/home" component={Home} />
+            <Route exact path="/skills" component={Skills} />
+            <Route exact path="/projects" component={Projects} />
             <Redirect to="/home" />
         </Switch>
       <Footer />

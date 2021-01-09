@@ -20,7 +20,7 @@ const MyNavbar = () => {
                  <img className="logo" src={Logo} alt="" />
                   <Nav.Link href="/home"><span className ="fa fa-home fa-lg"></span> Home</Nav.Link>
                   <Nav.Link href="/home#about"><span className ="fa fa-info fa-lg"></span> About Me</Nav.Link>
-                  <Nav.Link href="/Projects"><img className="logos" src={projects}/>Projects</Nav.Link>        
+                  <Nav.Link href="https://sunil2k1.github.io/myportfolio/#/projects"><img className="logos" src={projects}/>Projects</Nav.Link>        
               </Navbar.Collapse>  
           </Navbar.Brand>
         </div>
@@ -28,16 +28,15 @@ const MyNavbar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto ">            
-             <Nav.Link href="/skills">Skills</Nav.Link>
-              <Nav.Link href="/skills#experience">Experience</Nav.Link>
+             <Nav.Link href="https://sunil2k1.github.io/myportfolio/#/skills">Skills</Nav.Link>
+              <Nav.Link href="https://sunil2k1.github.io/myportfolio/#/skills#experience">Experience</Nav.Link>
               <div>
                     <a href="https://drive.google.com/file/d/1xi9HnXnFqgH3IygtzbuYnOx1l-ZXM2hY/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                        Resume
                       </Button>
                     </a>
-                  </div>     
-              
+                  </div>                
             </Nav>
           </Navbar.Collapse>
         </div>
