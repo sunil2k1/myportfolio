@@ -24,17 +24,16 @@ const Experience = () => {
                   <Card.Text className="text-center style">
                     <strong className="body-title-style ">Full Stack Developer</strong>
                     <br />
-                    <strong>Technology:</strong> React JS,Node Js,HTML5,CSS3,MS-SQL
+                    <strong>Technology:</strong> React JS,Node Js,HTML5,CSS3,MYSQL
                     <br />
                     <strong> Description </strong>
                     <ul className="text-left">
                         <h3>Android App Development</h3>
                         <li>Creating different Android App Using Android Studio.And I created BMI cal and Wanders App</li>
                        <h3>Static Web Design</h3>
-                      <li>Create different Static website from sratch with HTML, CSS ,JavaScript and I created Board using HTML, CSS ,JavaScript</li>
+                      <li>Create different Static website from scratch with HTML, CSS ,JavaScript and I created Board using HTML, CSS ,JavaScript</li>
                       <h3>Dynamic Web Design</h3>
                       <li>Create dynamic websites using Reactjs, Nodejs. and I created HotelInfo (All Details Of a Particular Hotel),My Portfolio</li>
-
                     </ul>                 
                   </Card.Text>
                 </div>
