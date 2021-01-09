@@ -15,11 +15,11 @@ const MyNavbar = () => {
         className="animate-navbar nav-theme justify-content-between"
       >
         <div>
-          <Navbar.Brand href="/home">        
+          <Navbar.Brand href="https://sunil2k1.github.io/myportfolio/#/home">        
             <Navbar.Collapse id="basic-navbar-nav">
                  <img className="logo" src={Logo} alt="" />
-                  <Nav.Link href="/home"><span className ="fa fa-home fa-lg"></span> Home</Nav.Link>
-                  <Nav.Link href="/home#about"><span className ="fa fa-info fa-lg"></span> About Me</Nav.Link>
+                  <Nav.Link href="https://sunil2k1.github.io/myportfolio/#//home"><span className ="fa fa-home fa-lg"></span> Home</Nav.Link>
+                  <Nav.Link href="https://sunil2k1.github.io/myportfolio/#//home#about"><span className ="fa fa-info fa-lg"></span> About Me</Nav.Link>
                   <Nav.Link href="https://sunil2k1.github.io/myportfolio/#/projects"><img className="logos" src={projects}/>Projects</Nav.Link>        
               </Navbar.Collapse>  
           </Navbar.Brand>
