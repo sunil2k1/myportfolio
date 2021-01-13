@@ -2,14 +2,24 @@
   width:4%;
 }
 .nav-theme {
-  background-color:   #04043df8;
+  background-color:   #010118f8;
   font-size: 20px;
+}
+.skilllogos{
+  font-size: 20px;
+  color: white;
+}
+
+.skilllogo{
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
 }
 
 .animate-navbar {
-  box-shadow: 1px 1px 1px #222;
+  box-shadow: 1px 1px 1px rgb(255, 255, 255);
   animation: moveDown 0.5s ease-in-out;
 }
+
 
 @keyframes moveDown {
   from {
@@ -19,3 +29,19 @@
     transform: translateY(0rem);
   }
 }
+
+
+.navbar{
+  width: 100%;
+  height: 12%;
+  padding: 20px;
+  position: fixed;
+  top: 0px;
+  text-align: center;
+  transition: .5s;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+
