@@ -28,14 +28,14 @@ class MyNavbar extends Component {
           expand="md"
           id="navbar"
         >
-                 <Navbar.Brand><Nav.Link className="skilllogos" href="/#/home"><span className ="fa fa-home fa-lg"></span></Nav.Link></Navbar.Brand>
+                 <Navbar.Brand><Nav.Link className="skilllogos" href="https://sunil2k1.github.io/myportfolio/#/home"><span className ="fa fa-home fa-lg"></span></Nav.Link></Navbar.Brand>
           <div>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto ">
-              <Nav.Link className="skilllogo" href="/#/home">Home</Nav.Link>
-                  <Nav.Link className="skilllogo" href="/#/skills">Skills</Nav.Link>  
-                  <Nav.Link className="skilllogo" href="/#/projects">Projects</Nav.Link>  
+              <Nav.Link className="skilllogo" href="https://sunil2k1.github.io/myportfolio/#/home">Home</Nav.Link>
+                  <Nav.Link className="skilllogo" href="https://sunil2k1.github.io/myportfolio/#/skills">Skills</Nav.Link>  
+                  <Nav.Link className="skilllogo" href="https://sunil2k1.github.io/myportfolio/#/projects">Projects</Nav.Link>  
                   <Nav.Link className="skilllogo" href="https://drive.google.com/file/d/1xi9HnXnFqgH3IygtzbuYnOx1l-ZXM2hY/view?usp=sharing ">Resume</Nav.Link>   
               </Nav>
             </Navbar.Collapse>

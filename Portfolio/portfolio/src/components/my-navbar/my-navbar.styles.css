@@ -33,7 +33,6 @@
 
 .navbar{
   width: 100%;
-  height: 12%;
   padding: 20px;
   position: fixed;
   top: 0px;
@@ -43,5 +42,6 @@
   font-family: 'Times New Roman', Times, serif;
   
 }
+
 
 

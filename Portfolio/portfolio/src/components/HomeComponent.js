@@ -2,15 +2,14 @@ import React from "react";
 import TitleMessage from "./title-message/title-message.component";
 import About from "../pages/about/about.component"
 import { Parallax } from "react-parallax";
-import Particles from "react-particles-js";
-import { particlesOptions } from "../particlesOptions";
 import Fade from "react-reveal/Fade";
-
+import MyCarousal from "./my-carousal/my-carousal.component"
 
 
 const Home= () => {
     return (
       <div>
+      <MyCarousal />
       <TitleMessage />
       <div>
         <Parallax
