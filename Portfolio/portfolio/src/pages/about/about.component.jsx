@@ -32,11 +32,13 @@ const About = () => {
               <Row className=" align-items-start p-2 my-details rounded">        
               <Flip left cascade>
                 Hi there! I am <strong>&nbsp;Sunil Kumar G</strong>
-                 A passionate programmer , born and brought up in India. I'm a <span></span>Full Stack Web Developer with React.js, Node.js as my tech stack.<br /> I am a Android App Developer.
-                 I'm Certified as RedHat System  <span></span>Administrator in 20th August 2019.I'm completed Cambridge <span></span> Assessment Business Preliminary in June 2019.And I'm Pandit by <span></span>completing All Eight Levels in Dhakshin Bharath Hindi Prachar <span></span> Sabha
+                <p>
+                 A passionate programmer , born and brought up in India. I'm a Full Stack Web Developer with React.js, Node.js as my tech stack.<br /> I am a Android App Developer.
+                 I'm Certified as RedHat System Administrator in 20th August 2019.I'm completed Cambridge Assessment Business Preliminary in June 2019.And I'm Pandit by completing All Eight Levels in Dhakshin Bharath Hindi Prachar Sabha
                  Exams in 2017.
                  <br />
                  I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
+                 </p>
                 </Flip>
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
